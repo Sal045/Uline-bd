@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cursos</title>
+</head>
+<body>
+    {% for c in cursos %}
+     <p>{{c.nombre}} - {{c.duracion}} - {{c.descripcion}} - {{c.tags}} - {{c.calificacion}}</p>
+    {% endfor %}
+</body>
+</html>

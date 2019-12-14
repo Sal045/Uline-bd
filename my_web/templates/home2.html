@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    {% for e in evaluaciones %}
+     <p>{{e.usuario}} - {{e.curso}} - {{e.periodo}} - {{e.calificaciones}}</p>
+    {% endfor %}
+</body>
+</html>
